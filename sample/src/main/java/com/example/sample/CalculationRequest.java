@@ -1,8 +1,8 @@
 package com.example.sample;
 
 public class CalculationRequest {
-    private long num1;
-    private long num2;
+    private final long num1;  // 멤버변수를 final로 만들어서 VO만들어버려~ 
+    private final long num2;
     private String operator;
 
     public CalculationRequest(String[] parts){
